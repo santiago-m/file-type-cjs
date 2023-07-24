@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+	  "declaration": true,
+	  "emitDeclarationOnly": true,
+	  "isolatedModules": false,
+	  "outDir": "dist",
+	  "noEmit": false,
+	  "allowJs": true,
+	  "module": "commonjs",
+	  "rootDir": ".",
+	  "moduleResolution": "node"
+	},
+	"include": ["./**/*.d.ts", "browser.d.ts"],
+	"exclude": ["node_modules", "fixture", "lib"]
+  }

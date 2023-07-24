@@ -1,4 +1,4 @@
-import type {FileTypeResult} from './core.js';
+import type {FileTypeResult} from './core';
 
 /**
 Detect the file type of a file path.
@@ -10,4 +10,4 @@ The file type is detected by checking the [magic number](https://en.wikipedia.or
 */
 export function fileTypeFromFile(path: string): Promise<FileTypeResult | undefined>;
 
-export * from './core.js';
+export * from './core';

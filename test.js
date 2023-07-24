@@ -15,7 +15,7 @@ import {
 	fileTypeStream,
 	supportedExtensions,
 	supportedMimeTypes,
-} from './index.js';
+} from './index';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 

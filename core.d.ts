@@ -1,5 +1,5 @@
 import type {Readable as ReadableStream} from 'node:stream';
-import type {ITokenizer} from 'strtok3';
+import type {ITokenizer} from 'strtok3/lib';
 
 export type FileExtension =
 	| 'jpg'

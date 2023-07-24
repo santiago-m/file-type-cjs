@@ -5,8 +5,8 @@ import {
 	stringToBytes,
 	tarHeaderChecksumMatches,
 	uint32SyncSafeToken,
-} from './util.js';
-import {extensions, mimeTypes} from './supported.js';
+} from './util';
+import {extensions, mimeTypes} from './supported';
 
 const minimumBytes = 4100; // A fair amount of file-types are detectable within this range.
 
